@@ -12,7 +12,8 @@ registries:
 updates:
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/" # Location of package manifests
-    registries: "terraform-kieranyio"
+    registries:
+      - terraform-kieranyio
     schedule:
       interval: "daily"
       time: "17:25"
