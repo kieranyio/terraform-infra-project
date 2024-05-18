@@ -15,5 +15,5 @@ updates:
     registries: "terraform-kieranyio"
     schedule:
       interval: "daily"
-      time: "18:00"
+      time: "17:25"
       timezone: "Asia/Singapore"
