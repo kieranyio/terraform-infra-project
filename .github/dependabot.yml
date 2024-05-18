@@ -16,5 +16,5 @@ updates:
       - terraform-kieranyio
     schedule:
       interval: "daily"
-      time: "17:35"
+      time: "17:40"
       timezone: "Asia/Singapore"
