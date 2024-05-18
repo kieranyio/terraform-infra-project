@@ -4,10 +4,16 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
+registries:
+  terraform-kieranyio:
+    type: terraform-registry
+    url: https://app.terraform.io
+    token: ${{secrets.TF_API_TOKEN_DEPENDABOT}}
 updates:
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries: "terraform-kieranyio"
     schedule:
       interval: "daily"
-      time: "16:55"
+      time: "18:00"
       timezone: "Asia/Singapore"
