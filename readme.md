@@ -13,3 +13,4 @@ https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider
 - Set workspace environment variables - `TFC_AWS_PROVIDER_AUTH` and `TFC_AWS_RUN_ROLE_ARN`
 - Agents do not need IAM role
 - To use multiple provider, set the required workspace environment variables for the alias. E.g.  `TFC_AWS_PROVIDER_AUTH_<ALIAS NAME>` and `TFC_AWS_RUN_ROLE_ARN_<ALIAS NAME>`
+- Add the variable `tfc_aws_dynamic_credentials` into code and `shared_config_files` into aws provider configuration
