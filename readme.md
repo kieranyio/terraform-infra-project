@@ -11,3 +11,4 @@ https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider
 - Create identity provider
 - Create IAM role with proper trust relationship using the OIDC provider created above
 - Set workspace environment variables - `TFC_AWS_PROVIDER_AUTH` and `TFC_AWS_RUN_ROLE_ARN`
+- Agents do not need IAM role
