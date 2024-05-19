@@ -4,6 +4,6 @@ module "vpc" {
 }
 
 resource "aws_vpc_endpoint" "s3" {
-  vpc_id       = aws_vpc.main.id
+  vpc_id       = module.vpc.id
   service_name = "com.amazonaws.${var.aws_region}.s3"
 }
