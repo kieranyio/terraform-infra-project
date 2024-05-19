@@ -1,10 +1,18 @@
 This is a POC project for the following
 - Dependabot
+- Renovate
 - Terraform dynamic credentials using OIDC
 
 Dependabot
 - Enable it on Github repository setting
 - Create a `.github/dependabot.yml` file
+
+Renovate
+- Using Mend Renovate App
+- Create a `renovate.json` file
+- Encrypt the token using https://app.renovatebot.com/encrypt
+- Copy and paste the encrypted token into `renovate.json`
+- Renovate can be self-hosted
 
 Terraform Dynamic Credentials using OIDC
 https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/aws-configuration
