@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchDatasources": ["terraform-module"],
-      "registryUrls": "https://app.terraform.io"
+      "registryUrls": ["https://app.terraform.io"]
     }
   ],
   "hostRules": [
